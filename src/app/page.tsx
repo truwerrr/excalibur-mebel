@@ -1,4 +1,4 @@
-import FeaturedProducts from '@/components/FeaturedProducts'
+import FeaturedProducts from '../components/FeaturedProducts'
 
 export default function Home() {
   return (
