@@ -1,19 +1,7 @@
 'use client'
-import React, { useState } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-
-const navigation = [
-  { name: 'Главная', href: '/' },
-  { name: 'Каталог', href: '/catalog' },
-  { name: 'О нас', href: '/about' },
-  { name: 'Контакты', href: '/contact' },
-]
 
 export default function Header() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const pathname = usePathname()
-
   return (
     <header className="bg-white shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
