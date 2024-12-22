@@ -19,12 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body className={inter.className}>
-        <DiscountBanner />
+      <body>
         <Header />
-        <div className="pt-16">
-          {children}
-        </div>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
